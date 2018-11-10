@@ -3,9 +3,9 @@
 
 To solve this task, I've used a DDGP-Agent. I started by implementing an agent with parameters from the original paper. Trough a long period of hyperparameter tuning and testing I came up with these changes:
 
-**decreasing buffer size:**
+decreasing buffer size:
 
-It was interesting to see the impact from the buffer size. I first used a buffer size of 1e6, so no experience is lost during training. this resulted in a linear learning curve, which came out around a score of 20 after 500 episodes. By decreasing the buffer size to 1e5 the memory gets constantly renewed after 100 episodes and this is where now in 2 of 3 runs the learning curve exponentially increases.
+    It was interesting to see the impact from the buffer size. I first used a buffer size of 1e6, so no experience is lost during training. this resulted in a linear learning curve, which came out around a score of 20 after 500 episodes. By decreasing the buffer size to 1e5 the memory gets constantly renewed after 100 episodes and this is where now in 2 of 3 runs the learning curve exponentially increases.
 
 OU-Noise damping:
 
