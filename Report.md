@@ -18,9 +18,14 @@ To solve this task, I've used a DDGP-Agent. I startet by implementing an agent w
 
 **Model architectures:**
   - Actor
+  * hidden Layer 1: 128 units +relu activation
+  * hidden Layer 2: 128 units +relu activation
+  * outputlayer1: 1 unit + tanh activation
   
   - Critic
-  
+  * hidden Layer 1: 128 units +relu activation
+  * hidden Layer 2: 132 units (128+size of actionspace) +relu activation
+  * outputlayer1: 1 unit
   
 **Ideas for Future Work:**
 
