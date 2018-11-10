@@ -6,6 +6,7 @@
 To solve this task, I've used a DDGP-Agent. I startet by implementing an agent with parameters from the original paper. 
 
 **DDPG Hyperparameters:**
+
     BUFFER_SIZE = int(1e5)  # replay buffer size
     BATCH_SIZE = 128        # minibatch size
     GAMMA = 0.99            # discount factor
