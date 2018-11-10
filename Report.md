@@ -45,9 +45,10 @@ I trained the agent on my CPU instead of using the GPU because there is more ser
 * **Results:**
 
 Environment solved after: 286 Episodes
+
 ![](/pictures/CC_training_500epsisodes.JPG)
 
 * **Ideas for Future Work:**
     * Implement Prioritized Experience Replay from the DQN paper to further reduce training time.
-    * Test different Agents like (PPO, A3C or D4PG) with second Version of the Reacher environment.
+    * Test different Agents like (PPO, A3C or D4PG) with the second Version of the Reacher environment.
 
